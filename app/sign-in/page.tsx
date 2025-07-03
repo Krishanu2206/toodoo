@@ -77,6 +77,7 @@ function Signinpage() {
                 <Input
                   type="email"
                   id="email"
+                  name='email'
                   value={identifier}
                   onChange={(e) => setIdentifier(e.target.value)}
                   required
@@ -88,6 +89,7 @@ function Signinpage() {
                   <Input
                     type={showpassword ? "text" : "password"}
                     id="password"
+                    name='password'
                     value={password}
                     onChange={(e) => setpassword(e.target.value)}
                     required
